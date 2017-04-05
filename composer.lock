@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c67633d890b4ae30f9eeb714e9ba6531",
+    "content-hash": "48106f2e4d96b1716eeb51c109fc595e",
     "packages": [
         {
             "name": "bfitech/zapcore",
@@ -48,11 +48,17 @@
         },
         {
             "name": "bfitech/zapstore",
-            "version": "dev-engines",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bfinews.com:bfin/zapstore",
+                "url": "https://github.com/bfitech/zapstore.git",
                 "reference": "98951e2f674d45aae4b333d93829df39a9b27bb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bfitech/zapstore/zipball/98951e2f674d45aae4b333d93829df39a9b27bb1",
+                "reference": "98951e2f674d45aae4b333d93829df39a9b27bb1",
+                "shasum": ""
             },
             "require": {
                 "bfitech/zapcore": "dev-master as 1.1.x-dev",
@@ -73,6 +79,7 @@
                     "BFITech\\ZapStore\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
