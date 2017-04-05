@@ -1,0 +1,14 @@
+
+*~
+*.swp
+*.bak
+*.log
+*.conf
+*.ini
+*.sq3
+.htaccess
+zapstore-test.*
+
+/vendor/
+/docs/
+

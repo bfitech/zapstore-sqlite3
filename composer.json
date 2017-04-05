@@ -1,0 +1,38 @@
+{
+  "name": "bfitech/zapstore-sqlite3",
+  "description": "SQLite3 support for zapstore.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rendra Suroso",
+      "email": "rs@cogsci.bandungfe.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@bfinews.com:bfin/zapstore"
+    }
+  ],
+  "require": {
+    "php": ">=5.5 || ~7.0",
+    "ext-sqlite3": "*",
+    "ext-pdo_sqlite": "*",
+    "bfitech/zapstore": "dev-engines"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "BFITech\\ZapStore\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "vendor/bfitech/zapstore/"
+    }
+  }
+}
