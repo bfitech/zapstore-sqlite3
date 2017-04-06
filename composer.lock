@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "48106f2e4d96b1716eeb51c109fc595e",
+    "content-hash": "8eb6dd1d5e6f32d45e124c0cc273e562",
     "packages": [
         {
             "name": "bfitech/zapcore",
-            "version": "dev-master",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bfitech/zapcore.git",
-                "reference": "ce36f4163d3a659238d62dbc8dccd548b8f460ef"
+                "reference": "da3119fae7c6e2769767aae59511610ab6e37d57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bfitech/zapcore/zipball/ce36f4163d3a659238d62dbc8dccd548b8f460ef",
-                "reference": "ce36f4163d3a659238d62dbc8dccd548b8f460ef",
+                "url": "https://api.github.com/repos/bfitech/zapcore/zipball/da3119fae7c6e2769767aae59511610ab6e37d57",
+                "reference": "da3119fae7c6e2769767aae59511610ab6e37d57",
                 "shasum": ""
             },
             "require": {
@@ -44,24 +44,24 @@
                 }
             ],
             "description": "A very simple router and other utils.",
-            "time": "2017-04-05 06:24:36"
+            "time": "2017-04-06T00:34:58+00:00"
         },
         {
             "name": "bfitech/zapstore",
-            "version": "dev-master",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bfitech/zapstore.git",
-                "reference": "98951e2f674d45aae4b333d93829df39a9b27bb1"
+                "reference": "b47561fffbee3e97f5de9594148d604e9e9efbc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bfitech/zapstore/zipball/98951e2f674d45aae4b333d93829df39a9b27bb1",
-                "reference": "98951e2f674d45aae4b333d93829df39a9b27bb1",
+                "url": "https://api.github.com/repos/bfitech/zapstore/zipball/b47561fffbee3e97f5de9594148d604e9e9efbc2",
+                "reference": "b47561fffbee3e97f5de9594148d604e9e9efbc2",
                 "shasum": ""
             },
             "require": {
-                "bfitech/zapcore": "dev-master as 1.1.x-dev",
+                "bfitech/zapcore": "^1.2",
                 "php": ">=5.5 || ~7.0"
             },
             "require-dev": {
@@ -90,7 +90,7 @@
                 }
             ],
             "description": "A simple SQL connection wrapper.",
-            "time": "2017-04-05 23:06:31"
+            "time": "2017-04-06T02:57:10+00:00"
         }
     ],
     "packages-dev": [
@@ -1213,9 +1213,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "bfitech/zapstore": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
