@@ -15,7 +15,7 @@
     "php": ">=5.5 || ~7.0",
     "ext-sqlite3": "*",
     "ext-pdo_sqlite": "*",
-    "bfitech/zapstore": "dev-master as 1.2.x-dev"
+    "bfitech/zapstore": "^1.3"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8"
