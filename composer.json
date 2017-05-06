@@ -1,7 +1,7 @@
 {
   "name": "bfitech/zapstore-sqlite3",
   "description": "SQLite3 support for zapstore.",
-  "type": "library",
+  "type": "metapackage",
   "license": "MIT",
   "authors": [
     {
@@ -13,7 +13,7 @@
     "php": ">=5.5 || ~7.0",
     "ext-sqlite3": "*",
     "ext-pdo_sqlite": "*",
-    "bfitech/zapstore": "~1.3.0"
+    "bfitech/zapstore": "1.3.x-dev"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8"
