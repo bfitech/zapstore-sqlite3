@@ -1,7 +1,7 @@
 {
   "name": "bfitech/zapstore-sqlite3",
   "description": "SQLite3 support for zapstore.",
-  "type": "metapackage",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
