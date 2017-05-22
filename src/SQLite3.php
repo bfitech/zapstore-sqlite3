@@ -7,6 +7,9 @@ namespace BFITech\ZapStore;
 use BFITech\ZapCore\Logger;
 
 
+/**
+ * SQLite3 wrapper class.
+ */
 class SQLite3 extends SQL {
 
 	/**
