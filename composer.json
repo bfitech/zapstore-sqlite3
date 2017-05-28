@@ -3,8 +3,6 @@
   "description": "SQLite3 support for zapstore.",
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "authors": [
     {
       "name": "Rendra Suroso",
